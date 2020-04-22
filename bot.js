@@ -19,7 +19,7 @@ bot.music.start(bot, {
 
 // Events.
 bot.on("ready", function() {
-    bot.user.setActivity(`Pustam muziku`);
+    bot.user.setActivity(`.help | Српско Царство ™`);
     console.log(`${bot.user.username} is Ready!`);
 });
 
